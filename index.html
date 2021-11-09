@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Control de Inventario</h1>
+    <form>
+        <h2>Agregar</h2>
+        Codigo: <input id="idA" type="number" style="margin-right: 2%;">
+        Nombre: <input id="name" type="text" style="margin-right: 2%;">
+        Cantidad: <input id="amount" type="number" style="margin-right: 2%;">
+        Costo: <input id="cost" type="number" style="margin-right: 2%;">
+        <input id="btnAdd" type="button" value="Agregar" style="margin-right: 4%;">
+
+        <h2>Eliminar</h2>
+        Codigo de producto: <input id="idE" type="text" style="margin-right: 2%;">
+        <input id="btnDelete" type="button" value="Eliminar">
+
+        <h2>Buscar</h2>
+        Codigo de producto: <input id="idB" type="text" style="margin-right: 2%;">
+        <input id="btnSearch" type="button" value="Buscar">
+
+        <h2>Listar todos los productos</h2>
+        <input id="btnListAsc" type="button" value="Orden ascendente">
+        <input id="btnListDes" type="button" value="Orden descendente">
+    </form>
+
+    <div id='detalles'>
+ 
+    </div>
+    
+    <script src="main.js" type="module"></script>
+</body>
+</html>
